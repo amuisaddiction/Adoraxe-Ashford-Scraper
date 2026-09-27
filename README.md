@@ -7,7 +7,7 @@ This project is an automated Python web scraper designed to extract land records
 
 ## Technologies Used
 - **Python 3.x**
-- **curl_cffi**: Used to establish an HTTP session with browser-like TLS characteristics to bypass Cloudflare's strict HTTP checks without using a real browser.
+- **curl_cffi**: Used to establish an HTTP session with browser-like TLS characteristics when required by the target server.
 - **BeautifulSoup4 / lxml**: Used for parsing the live HTML structure.
 - **gspread / google-auth**: Used to authenticate and export the final validated data to Google Sheets.
 
