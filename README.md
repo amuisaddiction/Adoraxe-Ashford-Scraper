@@ -46,7 +46,7 @@ This project is an automated Python web scraper designed to extract land records
    - The validated dataset is exported to `output/ashford_land_records.csv` and `output/sample_ashford_land_records.csv`.
    - The scraper authentically connects to Google Cloud and uploads the final dataset to a Google Sheet, configuring it for public read access. It verifies the upload by reading the data back into Python.
 
-## Final Output Google Sheet
+## Google Sheet Output
 The final uploaded and verified data can be viewed here:
 **[Adoraxe Ashford Land Records (Google Sheet)](https://docs.google.com/spreadsheets/d/1ulFAXNZdSpluKjEarBHQhhtxCTNaQ5lu2lVM2aClmDw)**
 
